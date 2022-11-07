@@ -1,0 +1,30 @@
+{
+    "name": "easyagency/laravel-filters",
+    "description": "Filters for Laravel",
+    "keywords": [
+        "laravel",
+        "filters"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "easyagency",
+            "email": "support@easy-agency.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": ">=5.3",
+        "illuminate/database": ">=5.3",
+        "illuminate/http": ">=5.3",
+        "illuminate/console": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Easyagency\\LaravelFilters\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
